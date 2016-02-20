@@ -10,7 +10,7 @@ db.RColl.findOne()
 
 ###Przykładowy rekord wygląda następująco: 
 ```js
-![](http://i.imgur.com/qkcJSaH.png?1)
+![](http://i.imgur.com/qkcJSaH.png)
 ```
 
 ###Zapytanie o ilość komentarzy mężczyzn: 
@@ -83,7 +83,7 @@ Wynik zapytania:
 { "_id" : "salmonhelmet", "score" : -3499 }
 ```
 
-####Zapytanie o ilość postów, które nie byly edytowane.
+###Zapytanie o ilość postów, które nie byly edytowane.
 
 ```js
 db.RCOLL.aggregate ( [ {$match: {edited: false} }, 
