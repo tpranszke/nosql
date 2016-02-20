@@ -9,9 +9,9 @@ db.RColl.findOne()
 ```
 
 ###Przykładowy rekord wygląda następująco: 
-```js
+
 ![](http://i.imgur.com/qkcJSaH.png)
-```
+
 
 ###Zapytanie o ilość komentarzy mężczyzn: 
 ```js
