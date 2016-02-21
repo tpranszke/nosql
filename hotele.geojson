@@ -1,0 +1,269 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+	 "name": "Tatra Chalet",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2831634,
+          19.9359452
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel Belweder",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.7192117,
+          18.8278642
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel Rysy",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.2898032,
+          19.9588628
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Sheraton Krakow Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0556443,
+          19.9290723
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel SPA Dr Irena Eris",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.4136944,
+          16.4990633
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Sofitel Wroclaw",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.1114426,
+          17.025969
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel Bristol",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0378144,
+          22.0028002
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Palac Pakoszow",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8565883,
+          15.6248814
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Podewils Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3503172,
+          18.6579305
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hilton Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.35332,
+          18.6555777
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Sheraton Sopot Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4466851,
+          18.5669743
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Sofitel Grand Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4475121,
+          18.5661133
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel Mikolajki",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.7983461,
+          21.5643543
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel and Spa Marina Club",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.7097772,
+          20.3751326
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Ciekocino Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.7457641,
+          17.7944673
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel Rialto",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.232938,
+          21.0611941
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "InterContinental Hotel Warsaw",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.2324111,
+          21.000419
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Odyssey ClubHotel Wellness & SPA",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8795404,
+          20.6305703
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "City Park Hotel & Residence",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4000283,
+          16.8911593
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Sheraton Poznan Hotel",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.407398,
+          16.907539
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Hotel Bohema",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.1257358,
+          18.0046578
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+	 "name": "Blow Up Hall 5050",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.4017152,
+          16.9239643
+        ]
+      }
+    },
+  ]
+ }
