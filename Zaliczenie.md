@@ -50,7 +50,9 @@ select count(*) from import.rc_2015_01;
 ```
 
 Import do bazy danych PostgreSQL trwał 77 minut i 43 sekundy.
+
 Zaimportowano 53 851 542 rekordy, co zostało obliczone pecjalną funkcją.
+
 Zliczanie wierszy trwało 15 minut i 24 sekund.
 
 # Zadanie - GeoJson
