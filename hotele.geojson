@@ -3,13 +3,14 @@
   "features": [
     {
       "type": "Feature",
-	 "name": "Tatra Chalet",
+      "marker-color": "#0000ff",
+      "name": "Tatra Chalet",
       "properties": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.2831634,
-          19.9359452
+          19.9359452,
+          49.2831634
         ]
       }
     },
