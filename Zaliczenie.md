@@ -57,4 +57,67 @@ Zliczanie wierszy trwało 15 minut i 24 sekund.
 
 # Zadanie - GeoJson
 
+Do utworzenia mapy GeoJSON wykorzystałem [geojson.io](http://geojson.io/). Wykonałem mapkę z zaznaczynymi hotelami 5-gwiazdkowymi na terenie Polski.
+
+*Mapa hoteli*
+
+![](http://i.imgur.com/cvBkAeo.png)
+
+Bazę danych zaimportowałem do MongoDB poleceniem:
+```js
+    mongoimport -c hotel2 < D:\hotel.json
+```
+
+Przykładowy rekord sprawdziłem poleceniem:
+
+```js
+db.hotel2.findOne()
+```
+
+Rekord: 
+```javascript
+{
+  "_id" : ObjectId("2476c210d1a0f10511c704dc"),
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "name": "Hotel SPA Dr Irena Eris",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4990633,
+          50.4136944
+        ]
+      }
+    }
+```
+
+### Point
+
+Załóżmy, że do Poznania przylatuje osoba na wakacje i chce wynająć pokój w 5-gwiazdkowym hotelu. Przy użyciu polecenia: 
+```js
+var Poznan = {
+               "type": "Point",
+               "coordinates":[ 16.8264271,52.4199541 ]
+               }
+
+db.hotel2.find ( {loc : { $geoWithin : { $centerSphere : [Poznan, 50 / 3963.2 ] } } } )
+```
+możemy sprawdzić, który 5-gwiazdkowy hotel jest najbliżej Portu lotniczego Poznań-Ławica w promieniu 50 mil.
+
+### LineString
+
+Nasza osoba na wakacjach, chciałaby zwiedzić Polske od północy do południa. Zapytanie dotyczy czy na danej trasie od Sopotu do Zakopanego znajdują się 5-gwiazdkowe hotele.
+
+![](http://i.imgur.com/D1XBflU.png)
+
+Po wykonaniu zapytania:
+```js
+db.hotel2.find({loc: {$geoIntersects: {$geometry: {type: "LineString", 
+coordinates: [18.5669743,54.4466851], [18.2046578,53.1257358], ... )
+```
+Nie wystąpił żaden błąd. Nie zostały również wyświetlone żadne rekordy.
+
 
