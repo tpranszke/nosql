@@ -3,7 +3,6 @@
   "features": [
     {
       "type": "Feature",
-      "marker-color": "#0000ff",
       "name": "Tatra Chalet",
       "properties": {},
       "geometry": {
